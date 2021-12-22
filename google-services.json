@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060030182983",
+    "project_id": "advocatedb-1ff40",
+    "storage_bucket": "advocatedb-1ff40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060030182983:android:6cfd53e8dcd856d2d1a362",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelabs.recommendations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060030182983-b18qcp5v30go0ju6ttnaombjtpjiut02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFFoUWzXjSRV4-t0TMIo8NO96E8UvJ3Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060030182983-b18qcp5v30go0ju6ttnaombjtpjiut02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

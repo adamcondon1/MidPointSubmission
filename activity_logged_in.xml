@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".LoggedIn">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#070707"
+        android:fontFamily="sans-serif-black"
+        android:text="Advocate"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="162dp"
+        app:srcCompat="@drawable/advocatelogo" />
+
+    <Button
+        android:id="@+id/btnMovies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Page" />
+
+    <Button
+        android:id="@+id/btnRecommendations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommendations" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinemas + Shops Nearby" />
+
+    <Button
+        android:id="@+id/btnPayement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchase Movies You Can't Find" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:backgroundTint="#4CAF50"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        />
+</LinearLayout>
